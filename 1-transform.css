@@ -1,0 +1,322 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition-duration:1s;
+}
+body{
+    background-color: rgb(255, 227, 244);
+}
+.box{
+    width:12rem ;
+    height:10rem ;
+background-color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-left: 3rem;
+margin-top: 3rem;
+}
+body{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+
+}
+.square{
+    width: 7rem;
+    height:7rem ;
+    background-color: rgb(185, 185, 185);
+}
+.square2{
+    width: 7rem;
+    height: 7rem;
+    opacity: 0.6;
+    background-color: rgb(200, 31, 247);
+    
+}
+
+.square3{
+    width: 7rem;
+    height: 7rem;
+    opacity: 0.6;
+    background-color: rgb(200, 31, 247);
+    
+}
+
+.square4{
+    width: 7rem;
+    height: 7rem;
+    opacity: 0.6;
+    background-color: rgb(200, 31, 247);  
+}
+
+
+.square5{
+    width: 7rem;
+    height: 7rem;
+    opacity: 0.6;
+    background-color: rgb(200, 31, 247);
+    
+}
+.square6{
+    width: 7rem;
+    height: 7rem;
+    opacity: 0.6;
+    background-color: rgb(200, 31, 247);
+    
+}
+
+.square7{
+    width: 7rem;
+    height: 7rem;
+    opacity: 0.6;
+    background-color: rgb(200, 31, 247);
+  
+}
+
+.square8{
+    width: 7rem;
+    height: 7rem;
+    opacity: 0.6;
+    background-color: rgb(200, 31, 247);
+    
+}
+
+.square9{
+    width: 7rem;
+    height: 7rem;
+    opacity: 0.6;
+    background-color: rgb(200, 31, 247);
+    
+}
+.square10{
+    width: 7rem;
+    height: 7rem;
+    opacity: 0.6;
+    background-color: rgb(200, 31, 247);
+    
+}
+.square11{
+    width: 7rem;
+    height: 7rem;
+    opacity: 0.6;
+    background-color: rgb(200, 31, 247);
+    
+}
+.square12{
+    width: 7rem;
+    height: 7rem;
+    opacity: 0.6;
+    background-color: rgb(200, 31, 247);
+    
+}
+.square13{
+    width: 7rem;
+    height: 7rem;
+    opacity: 0.6;
+    background-color: rgb(200, 31, 247);
+}
+
+.square14{
+    width: 7rem;
+    height: 7rem;
+    opacity: 0.6;
+    background-color: rgb(200, 31, 247); 
+}
+
+.square15{
+    width: 7rem;
+    height: 7rem;
+    opacity: 0.6;
+    background-color: rgb(200, 31, 247);
+    
+}
+.square16{
+    width: 7rem;
+    height: 7rem;
+    opacity: 0.6;
+    background-color: rgb(200, 31, 247);
+    transform-origin: right top;
+    
+}
+.square17{
+    width: 7rem;
+    height: 7rem;
+    opacity: 0.6;
+    background-color: rgb(200, 31, 247);
+    transform-origin: bottom left;
+}
+.square18{
+    width: 7rem;
+    height: 7rem;
+    opacity: 0.6;
+    background-color: rgb(200, 31, 247);
+    transform-origin: bottom;
+    
+}
+.square19{
+    width: 7rem;
+    height: 7rem;
+    opacity: 0.6;
+    background-color: rgb(200, 31, 247);
+    transform-origin: top;
+}
+
+.sq{
+    width: 7rem;
+    height: 7rem;
+    opacity: 0.6;
+    background-color: rgb(200, 31, 247);
+    
+}
+.sq2{
+    width: 7rem;
+    height: 7rem;
+    opacity: 0.6;
+    background-color: rgb(200, 31, 247);
+    transform-origin:left;
+    
+}
+.sq3{
+    width: 7rem;
+    height: 7rem;
+    opacity: 0.6;
+    background-color: rgb(200, 31, 247);
+    transform-origin:right;
+    
+}
+.sq4{
+    width: 7rem;
+    height: 7rem;
+    opacity: 0.6;
+    background-color: rgb(200, 31, 247);
+    transform-origin:bottom left;
+    
+}
+.sq5{
+    width: 7rem;
+    height: 7rem;
+    opacity: 0.6;
+    background-color: rgb(200, 31, 247);
+    transform-origin:top right;
+}
+    
+    .sq6{
+        width: 7rem;
+        height: 7rem;
+        opacity: 0.6;
+        background-color: rgb(200, 31, 247);
+transform-origin: right;
+    }
+    .sq7{
+        width: 7rem;
+        height: 7rem;
+        opacity: 0.6;
+        background-color: rgb(200, 31, 247);
+        transform-origin:top;
+    }
+    .sq8{
+        width: 7rem;
+        height: 7rem;
+        opacity: 0.6;
+        background-color: rgb(200, 31, 247);
+        transform-origin:bottom;
+    }
+        
+.square2:hover{
+    transform: rotate(45deg);
+
+}
+.square3:hover{
+transform:rotatex(45deg);
+}
+.square4:hover{
+    transform:rotatey(45deg);
+}
+.square5:hover{
+transform: scale(2);
+}
+.square6:hover{
+   transform: scalex(2);
+    }
+    .square7:hover{
+        transform: translate(40px);
+  }
+  .square8:hover{
+   transform: scaley(2);
+/* transform-origin:top left; */
+}
+.square9:hover{
+  transform: skewy(50deg);
+}
+.square10:hover{
+    transform: skew(40deg);
+  }
+  .square11:hover{
+  transform: translate(35px,15px);
+  }
+  .square12:hover{
+    transform: translatey(45px);
+   }
+   .square13:hover{
+    transform: matrix(2,2,0,2,45,0);
+}
+
+   .square14:hover{
+    transform: perspective(100px) rotatey(45deg)
+   }
+   .square15:hover{
+    transform: perspective(90px) rotatex(45deg)
+   }
+   .square16:hover{
+ transform: rotate(45deg)
+}
+
+
+.square17:hover{
+    transform: rotate(60deg);
+}
+.square18:hover{
+ transform: perspective(400px) rotateX(60deg);
+
+ } 
+
+.square19:hover{
+ transform:perspective(150px)  rotatex(45deg);
+transform: translatey(80px);
+ transform-origin:top ;
+ transform: scale(2);
+ transform: perspective(300px) rotateX(60deg);
+   }
+ 
+.sq:hover{
+    transform: perspective(300px) rotatey(45deg);
+transform-origin: left;
+}
+.sq2:hover{
+transform: scalex(2);
+}
+.sq3:hover{
+transform: scalex(2);
+}
+.sq4:hover{
+transform: scale(2);
+}
+
+.sq5:hover{
+transform: scale(2);
+}
+
+.sq6:hover{
+  transform: perspective(300px) rotatey(60deg);
+    }
+    .sq7:hover{
+  transform: scaley(2);
+            }
+.sq8:hover{
+ transform: scaley(2);
+  }
+     
+
